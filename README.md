@@ -9,10 +9,6 @@ Bu proje, test mühendisliği ile ilgili sorulara cevap veren bir chatbot sistem
 ### Backend
 
 1. **Backend'i çalıştırmak için:**
-   - Gerekli paketleri yükle:
-     ```bash
-     pip install -r requirements.txt
-     ```
    - FastAPI uygulamasını başlat:
      ```bash
      uvicorn main:app --reload
