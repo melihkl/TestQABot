@@ -1,0 +1,34 @@
+{
+  "questions": [
+    {
+      "question": "Yazılım Testi Nedir?",
+      "answer": "Yazılım testi, hata bulmak ve yazılım geliştirme sırasında üretilen eserlerin kalitesini değerlendirmek için yapılan bir aktiviteler bütünüdür. Bu eserlere, test edilirken test nesnesi adı verilir. Yazılım testi sadece teknik bir aktivite değildir. Aynı zamanda uygun şekilde planlanması, yönetilmesi, tahmin edilmesi, izlenmesi ve kontrol edilmesi gerekir",
+      "next_topics": ["Fonksiyonel Test Nedir?", "Fonksiyonel Olmayan Test Nedir?"],
+      "topic": "Basics"
+    },
+    {
+      "question": "Testin Hedefleri?",
+      "answer": "Gereksinimler, kullanıcı hikayeleri, tasarımlar ve kod gibi çalışma ürünlerini değerlendirmek\n• Arızaları tetiklemek ve hataları bulmak\n• Test nesnesinin gerekli kapsamını sağlamak\n• Yazılımın kalite kriterlerini karşılayamama riskini azaltmak\n• Belirtilen gereksinimlerin yerine getirilip getirilmediğini doğrulamak\n• Test nesnesinin sözleşmeden kaynaklanan, yasal veya düzenleyici gereksinimlere uyumluluğunu\ndoğrulamak\n• Sağlıklı kararlar almalarını sağlamak için paydaşlara yeterli bilgiyi sunmak\n• Test nesnesinin kalitesi hakkında güven oluşturmak\n• Test nesn",
+      "next_topics": ["smoke test nedir?", "regresyon test nedir?"],
+      "topic": "Basics"
+    },
+    {
+      "question": "Fonksiyonel Olmayan Test Nedir?",
+      "answer": "Fonksiyonel Olmayan Test ......",
+      "next_topics": ["yük test nedir?", "stres test nedir?"],
+      "topic": "Basics"
+    },
+    {
+      "question": "Yük Testi Nedir?",
+      "answer": "Yük Tesi ......",
+      "next_topics": ["Performans testi nedir?", "stres test nedir?"],
+      "topic": "Testing Types"
+    },
+    {
+      "question": "Regresyon Testi Nedir?",
+      "answer": "Regresyon Tesi ......",
+      "next_topics": ["UI testi nedir?"],
+      "topic": "Testing Types"
+    }
+  ]
+}
