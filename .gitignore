@@ -1,49 +1,35 @@
-# Genel
-.DS_Store
-Thumbs.db
-*.log
-*.env
-*.local
-
-# Python - Backend
+# Python ile ilgili dosyalar
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-*.db
-venv/
+
+# virtual environment
 env/
+venv/
 ENV/
 .venv/
-.pytest_cache/
-.cache/
-instance/
-*.sqlite3
-*.sqlite
-*.pkl
-*.h5
-*.hdf5
 
-# Jupyter Notebooks
-.ipynb_checkpoints/
-
-# FastAPI
-*.db
-*.sqlite3
-
-# Vue.js - Frontend
-node_modules/
-dist/
-*.local
-*.env.*
-*.npmrc
-yarn.lock
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# macOS ve Linux
+# IDE ve editör dosyaları
 .idea/
 .vscode/
-*.swp
-.swo
+*.sublime-project
+*.sublime-workspace
+
+# Pytest ve diğer test dosyaları
+*.coverage
+*.egg-info/
+dist/
+build/
+*.log
+
+# Node.js ile ilgili dosyalar (frontend için)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# .env dosyaları (gizli bilgiler için)
+.env
+
+# Diğer geçici dosyalar
+*.DS_Store
